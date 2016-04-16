@@ -1,0 +1,334 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:garage-opener-cache
+LIBS:glass-break
+LIBS:wifi-light-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-WROOM-02 U?
+U 1 1 570BFF8F
+P 7300 1900
+F 0 "U?" H 8350 600 60  0000 C CNN
+F 1 "ESP-WROOM-02" H 8000 1750 60  0000 C CNN
+F 2 "garage-opener:ESP-WROOM-02" H 7300 1900 60  0000 C CNN
+F 3 "" H 7300 1900 60  0000 C CNN
+	1    7300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPX3819 U1?
+U 1 1 570C00A7
+P 3100 5550
+F 0 "U1?" H 2850 5900 50  0000 C CNN
+F 1 "SPX3819" H 3250 5900 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3100 5150 50  0000 C CIN
+F 3 "http://www.mouser.com/ds/2/146/SPX3819_DS_R200_082312-17072.pdf" H 3150 5050 50  0001 C CNN
+	1    3100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_RGB D?
+U 1 1 57127BE5
+P 4750 3000
+F 0 "D?" H 4750 3425 50  0000 C CNN
+F 1 "LED_RGB" H 4750 3350 50  0000 C CNN
+F 2 "footprints:STFled" H 4750 2950 50  0000 C CNN
+F 3 "http://www.seoulsemicon.com/_upload/Goods_Spec/3528_STF0A36B_Rev5.0.pdf" H 4750 2950 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_RGB D?
+U 1 1 57127EEE
+P 4100 3000
+F 0 "D?" H 4100 3425 50  0000 C CNN
+F 1 "LED_RGB" H 4100 3350 50  0000 C CNN
+F 2 "footprints:STFled" H 4100 2950 50  0000 C CNN
+F 3 "http://www.seoulsemicon.com/_upload/Goods_Spec/3528_STF0A36B_Rev5.0.pdf" H 4100 2950 50  0001 C CNN
+	1    4100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_RGB D?
+U 1 1 57127F78
+P 3450 3000
+F 0 "D?" H 3450 3425 50  0000 C CNN
+F 1 "LED_RGB" H 3450 3350 50  0000 C CNN
+F 2 "footprints:STFled" H 3450 2950 50  0000 C CNN
+F 3 "http://www.seoulsemicon.com/_upload/Goods_Spec/3528_STF0A36B_Rev5.0.pdf" H 3450 2950 50  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_RGB D?
+U 1 1 57127F7E
+P 2800 3000
+F 0 "D?" H 2800 3425 50  0000 C CNN
+F 1 "LED_RGB" H 2800 3350 50  0000 C CNN
+F 2 "footprints:STFled" H 2800 2950 50  0000 C CNN
+F 3 "http://www.seoulsemicon.com/_upload/Goods_Spec/3528_STF0A36B_Rev5.0.pdf" H 2800 2950 50  0001 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_RGB D?
+U 1 1 57127FAA
+P 2150 3000
+F 0 "D?" H 2150 3425 50  0000 C CNN
+F 1 "LED_RGB" H 2150 3350 50  0000 C CNN
+F 2 "footprints:STFled" H 2150 2950 50  0000 C CNN
+F 3 "http://www.seoulsemicon.com/_upload/Goods_Spec/3528_STF0A36B_Rev5.0.pdf" H 2150 2950 50  0001 C CNN
+	1    2150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571281F7
+P 1750 1200
+F 0 "R?" V 1830 1200 50  0000 C CNN
+F 1 "R" V 1750 1200 50  0000 C CNN
+F 2 "" V 1680 1200 50  0000 C CNN
+F 3 "" H 1750 1200 50  0000 C CNN
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57128334
+P 1950 1200
+F 0 "R?" V 2030 1200 50  0000 C CNN
+F 1 "R" V 1950 1200 50  0000 C CNN
+F 2 "" V 1880 1200 50  0000 C CNN
+F 3 "" H 1950 1200 50  0000 C CNN
+	1    1950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57128377
+P 2150 1200
+F 0 "R?" V 2230 1200 50  0000 C CNN
+F 1 "R" V 2150 1200 50  0000 C CNN
+F 2 "" V 2080 1200 50  0000 C CNN
+F 3 "" H 2150 1200 50  0000 C CNN
+	1    2150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5712837D
+P 2350 1200
+F 0 "R?" V 2430 1200 50  0000 C CNN
+F 1 "R" V 2350 1200 50  0000 C CNN
+F 2 "" V 2280 1200 50  0000 C CNN
+F 3 "" H 2350 1200 50  0000 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5712849E
+P 2550 1200
+F 0 "R?" V 2630 1200 50  0000 C CNN
+F 1 "R" V 2550 1200 50  0000 C CNN
+F 2 "" V 2480 1200 50  0000 C CNN
+F 3 "" H 2550 1200 50  0000 C CNN
+	1    2550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571284A4
+P 2750 1200
+F 0 "R?" V 2830 1200 50  0000 C CNN
+F 1 "R" V 2750 1200 50  0000 C CNN
+F 2 "" V 2680 1200 50  0000 C CNN
+F 3 "" H 2750 1200 50  0000 C CNN
+	1    2750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571284AA
+P 2950 1200
+F 0 "R?" V 3030 1200 50  0000 C CNN
+F 1 "R" V 2950 1200 50  0000 C CNN
+F 2 "" V 2880 1200 50  0000 C CNN
+F 3 "" H 2950 1200 50  0000 C CNN
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571284B0
+P 3150 1200
+F 0 "R?" V 3230 1200 50  0000 C CNN
+F 1 "R" V 3150 1200 50  0000 C CNN
+F 2 "" V 3080 1200 50  0000 C CNN
+F 3 "" H 3150 1200 50  0000 C CNN
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5712857B
+P 1750 1650
+F 0 "C?" H 1775 1750 50  0000 L CNN
+F 1 "C" H 1775 1550 50  0000 L CNN
+F 2 "" H 1788 1500 50  0000 C CNN
+F 3 "" H 1750 1650 50  0000 C CNN
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5712864A
+P 1950 1650
+F 0 "C?" H 1975 1750 50  0000 L CNN
+F 1 "C" H 1975 1550 50  0000 L CNN
+F 2 "" H 1988 1500 50  0000 C CNN
+F 3 "" H 1950 1650 50  0000 C CNN
+	1    1950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57128691
+P 2150 1650
+F 0 "C?" H 2175 1750 50  0000 L CNN
+F 1 "C" H 2175 1550 50  0000 L CNN
+F 2 "" H 2188 1500 50  0000 C CNN
+F 3 "" H 2150 1650 50  0000 C CNN
+	1    2150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57128697
+P 2350 1650
+F 0 "C?" H 2375 1750 50  0000 L CNN
+F 1 "C" H 2375 1550 50  0000 L CNN
+F 2 "" H 2388 1500 50  0000 C CNN
+F 3 "" H 2350 1650 50  0000 C CNN
+	1    2350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571287A8
+P 2550 1650
+F 0 "C?" H 2575 1750 50  0000 L CNN
+F 1 "C" H 2575 1550 50  0000 L CNN
+F 2 "" H 2588 1500 50  0000 C CNN
+F 3 "" H 2550 1650 50  0000 C CNN
+	1    2550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571287AE
+P 2750 1650
+F 0 "C?" H 2775 1750 50  0000 L CNN
+F 1 "C" H 2775 1550 50  0000 L CNN
+F 2 "" H 2788 1500 50  0000 C CNN
+F 3 "" H 2750 1650 50  0000 C CNN
+	1    2750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571287B4
+P 2950 1650
+F 0 "C?" H 2975 1750 50  0000 L CNN
+F 1 "C" H 2975 1550 50  0000 L CNN
+F 2 "" H 2988 1500 50  0000 C CNN
+F 3 "" H 2950 1650 50  0000 C CNN
+	1    2950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571287BA
+P 3150 1650
+F 0 "C?" H 3175 1750 50  0000 L CNN
+F 1 "C" H 3175 1550 50  0000 L CNN
+F 2 "" H 3188 1500 50  0000 C CNN
+F 3 "" H 3150 1650 50  0000 C CNN
+	1    3150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 57128913
+P 800 1300
+F 0 "SW?" H 950 1410 50  0000 C CNN
+F 1 "SW_PUSH" H 800 1220 50  0000 C CNN
+F 2 "" H 800 1300 50  0000 C CNN
+F 3 "" H 800 1300 50  0000 C CNN
+	1    800  1300
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 57128B88
+P 1050 1300
+F 0 "SW?" H 1200 1410 50  0000 C CNN
+F 1 "SW_PUSH" H 1050 1220 50  0000 C CNN
+F 2 "" H 1050 1300 50  0000 C CNN
+F 3 "" H 1050 1300 50  0000 C CNN
+	1    1050 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L SR086 U?
+U 1 1 5712BA41
+P 4350 3900
+F 0 "U?" H 4050 4250 50  0000 C CNN
+F 1 "SR086" H 4500 4250 50  0000 C CNN
+F 2 "footprints:SR086" H 4350 3950 50  0000 C CIN
+F 3 "" H 4350 3900 50  0000 C CNN
+	1    4350 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
